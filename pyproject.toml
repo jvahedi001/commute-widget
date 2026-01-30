@@ -1,0 +1,10 @@
+[project]
+name = "commute-widget"
+version = "0.1.0"
+description = "Menu bar widget for commute time using Apple Maps"
+requires-python = ">=3.8"
+dependencies = [
+    "rumps>=0.4.0",
+    "pyobjc-framework-CoreLocation>=10.0",
+    "pyobjc-framework-MapKit>=10.0",
+]
