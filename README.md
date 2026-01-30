@@ -34,7 +34,7 @@ On first run, you'll be prompted to enter your home address.
 
 ## Configuration
 
-Edit your work address in `commute.py` (line 18):
+**Important:** The work address is currently hardcoded to the VA office. You'll need to edit `commute.py` (line 18) to set your own work location:
 ```python
 WORK_ADDRESS = "Your work address here"
 ```
