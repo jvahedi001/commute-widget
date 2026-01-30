@@ -17,7 +17,7 @@ import objc
 # Configuration
 WORK_ADDRESS = "1775 Tysons Blvd, McLean, VA 22102"  # Hardcoded work address
 CONFIG_FILE = Path(__file__).parent / "config.json"
-UPDATE_INTERVAL = 300  # Update every 5 minutes (300 seconds)
+UPDATE_INTERVAL = 60  # Update every minute (60 seconds)
 
 
 def load_config():
