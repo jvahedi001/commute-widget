@@ -2,9 +2,9 @@
 
 A macOS menu bar widget that shows real-time commute times from work to home using Apple Maps.
 
-## Why I Built This
+## Motivation
 
-For anyone else looking to see when to leave work to avoid traffic: there was no Apple background widget for this, and I couldn't install apps given the restrictions on my work machine. So I wrote a script that puts it in the menu bar and autostarts with login.
+This widget was created to solve a simple problem: knowing when to leave work to avoid heavy traffic. While macOS doesn't provide a built-in widget for monitoring commute times, and corporate device restrictions often prevent installing third-party applications, a lightweight Python script running in the menu bar provides an elegant solution that works within these constraints.
 
 ![Commute Widget Screenshot](screenshot.png)
 
